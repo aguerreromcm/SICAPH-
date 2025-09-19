@@ -3,7 +3,7 @@
 error_reporting(E_ERROR | E_PARSE);
 
 // Se reportan todos los errores y advertencias
-// error_reporting(E_ALL);
+//error_reporting(E_ALL);
 
 // Se remueve información sensible de los encabezados HTTP
 header_remove('X-Powered-By');

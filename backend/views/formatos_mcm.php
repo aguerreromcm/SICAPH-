@@ -72,7 +72,7 @@
                         </select>
                     </div>
                     <div class="form-group col-4">
-                        <label class="form-label">¿Quién tiene acceso?</label><br>
+                        <label for="permisos" class="form-label">¿Quién tiene acceso?</label><br>
                         <select id="permisos" name="permisos" class="form-select">
                             <option value="0">Todos</option>
                             <option value="1">Solamente gerentes</option>
@@ -80,8 +80,8 @@
                         <div class="fv-message text-danger small" style="min-height: 1.25rem"></div>
                     </div>
                     <div class="form-group col-8">
-                        <label for="empresa" class="form-label">Archivo a subir *</label>
-                        <input type="file" id="empresa" name="empresa" class="form-control" accept=".pdf">
+                        <label for="archivoFormato" class="form-label">Archivo a subir *</label>
+                        <input type="file" id="archivoFormato" name="archivoFormato" class="form-control" accept=".pdf">
                         <div class="fv-message text-danger small" style="min-height: 1.25rem"></div>
                     </div>
                 </div>
