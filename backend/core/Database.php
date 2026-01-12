@@ -84,7 +84,7 @@ class Database
     private function getError($e, $sql = null, $valores = null, $retorno = null)
     {
         $error = "Error en DB: {$e->getMessage()}\n";
-
+        // Prueba cambio repositorio
         if ($sql != null) $error .= "Query: $sql\n";
         if ($valores != null) $error .= 'Datos: ' . print_r($valores, 1);
         if ($retorno != null) $error .= 'Retorno: ' . print_r($retorno, 1);
